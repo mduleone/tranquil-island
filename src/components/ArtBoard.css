@@ -1,0 +1,28 @@
+input {
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+button {
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+label {
+  display: block;
+  margin: .5em 0;
+}
+
+.art-board-container {
+  padding: 16px;
+  margin: 16px auto;
+  border: 1px solid black;
+  max-width: 512px;
+  border-radius: 3px;
+}
+
+@media only screen and (max-width: 576px) {
+  .art-board-container {
+    margin: 16px;
+  }
+}
